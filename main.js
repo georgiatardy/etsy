@@ -79,14 +79,14 @@ function question5() {
 
 function question6() {
 
-  let dummyarray6 = [];
+  let sellersarray = [];
   for (let i = 0; i < data.length; i++) {
     if (data[i].who_made === "i_did") {
-    dummayarray6.push(data[i].state);
+    sellersarray.push(data[i].state);
   }
 }
-console.log(dummyarray6.length);
-console.log(dummyarray6);
+console.log(sellersarray.length);
+console.log(sellersarray);
 }
 
 //
